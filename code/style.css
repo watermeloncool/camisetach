@@ -159,7 +159,7 @@ select {cursor:pointer;}
 
 /* footer ------------------------------------------------ */
 #footer{ background: black ; text-align:center; margin-top:100px; }
-#footer .bloc{display:inline-block; vertical-align:top; text-align:left; width:20%; margin:30px 0 30px 0; vertical-align:middle; text-align:center;}
+#footer .bloc{display:inline-block; vertical-align:top; text-align:left; width:20%; margin:50px 0 50px 0; vertical-align:middle; text-align:center;}
 #footer .footertitre {color:var(--grey);  }
 #footer a:hover{cursor:pointer; color:var(--blue);}
 #footer img {width:20px; padding-right:5px; vertical-align:middle;}

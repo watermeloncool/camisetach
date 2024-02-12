@@ -13,21 +13,14 @@
   }
 
 /* global ------------------------------------------------- */
-body::before {content: "";
-  position: fixed;
-  top: -10px;
-  right: 0;
-  bottom: -10px;
-  left: 0;
-  background: black;
-  z-index: -1;}
+:root{background:black;}
 body,html{ background-color: black; background: linear-gradient(black 0%, var(--dark) 300px) ; color:white; font-family:'Roboto', Helvetica, Arial, sans-serif; font-size:15px; font-weight:700; scroll-behavior: smooth; margin:0; padding:0; line-height: 155%;}
 a{color:white; text-decoration:none; cursor:pointer; }
 a:hover {cursor:pointer !important;}
 /* input, select, textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; border:0; margin:0; font-family:'Roboto', Helvetica, Arial, sans-serif; padding:10px 15px; box-sizing: border-box; border-radius:10px; background:white; color: var(--dark); font-size:16px; font-weight:700;} */
 select {cursor:pointer;}
 ::placeholder {color: grey;}
-.btn{ background:var(--blue); color:white; border-radius:20px; cursor:pointer; line-height: 100%; text-align:center; font-size:16px; display:block; padding: 15px 25px; display:inline-block; }
+.btn{ background:var(--blue); color:white; border-radius:25px; cursor:pointer; line-height: 100%; text-align:center; font-size:16px; display:block; padding: 15px 25px; display:inline-block; }
 .btn:hover{background:white !important; color:black !important; cursor:pointer !important; }
 .feedback{display:none; box-sizing: border-box; padding:13px 20px; background:var(--green); color: var(--dark); border-radius:12px;}
 .opacite {opacity:0.35;}
@@ -36,7 +29,7 @@ select {cursor:pointer;}
 .derouler {background:rgb(40, 40, 45); /*border:solid 1px rgb(70, 70, 75);*/ margin-bottom:10px; border-radius:10px;}
 .derouler .top {display:flex; justify-content: space-between; align-items: center; padding:15px 0; -webkit-user-select: none; -ms-user-select: none; user-select: none; }
 .derouler .top:hover {background:rgb(35,35,40); border-radius:10px; cursor:pointer; }
-.derouler .top span {text-align:left;}
+.derouler .top span {text-align:left; margin-right:10px;}
 .derouler .image {vertical-align:middle; width:15px;}
 .derouler .contenu {padding:10px 15px 10px 15px; text-align:left; font-weight:500; }
 .derouler .contenu .radio {background:transparent; border:solid 2px white; color:white; padding:10px 15px; margin:15px 0; }
@@ -155,7 +148,7 @@ select {cursor:pointer;}
 #form input, #form textarea { margin:5px; }
 #form .prenom, #form .nom, #form .telephone, #form .email {width:345px; }
 #form .message {width:700px; height:200px;}
-#form .btn {background:var(--blue); font-size:16px; color:white; border-radius:20px; padding: 15px 25px; }
+#form .btn {background:var(--blue); font-size:16px; color:white; border-radius:25px; padding: 15px 25px; }
 #contact .feedback {width:700px;}
 
 @media screen and (max-width: 850px) { 

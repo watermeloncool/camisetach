@@ -48,7 +48,7 @@ select {cursor:pointer;}
 
 @media screen and (max-width: 600px) { 
 #menupc {display:none;}
-#menumobile {display:flex; justify-content: space-between;align-items: center; }
+#menumobile {background:black; display:flex; justify-content: space-between;align-items: center; }
 #sousmenumobile {background:black;}
 }
 

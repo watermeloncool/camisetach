@@ -48,7 +48,7 @@ select {cursor:pointer;}
 
 @media screen and (max-width: 600px) { 
 #menupc {display:none;}
-#menumobile {background:black; display:flex; justify-content: space-between;align-items: center; }
+#menumobile { display:flex; justify-content: space-between;align-items: center; }
 #sousmenumobile {background:black;}
 }
 
@@ -166,7 +166,7 @@ select {cursor:pointer;}
 
 @media screen and (max-width: 850px) { 
 #footer {padding: 50px 0; }
-#footer .bloc{width:90%; margin: 30px 0; }
+#footer .bloc{width:90%; margin: 25px 0; }
 }
 
 /* copyright ----------------------------------------------- */

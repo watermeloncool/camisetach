@@ -16,31 +16,32 @@
 
 <!-- AUTRES -->
 <!--script src="/code/redirect.js"></script-->
-<link rel="stylesheet" href="code/homepage2.css">
+<link rel="stylesheet" href="/code/style.css">
 
 </head>
 <body>
 
 
+  <!--  menu --------------------------------------------------------------------------- -->
   <div id="menu">
 
     <div id="menupc">
-    <img src="img/watermelon.svg">
-    <div>Leads</div>
-    <div>Sites web</div>
-    <div>Apps & Logiciels</div>
+    <img src="/img/watermelon.svg">
+    <!--a href="/fr/leads.html"><div>Leads</div></a-->
+    <a href="/fr/"><div>Sites web</div></a>
+    <a href="/fr/dev.html"><div>Apps & Logiciels</div></a>
     </div>
     
     <div id="menumobile">
-      <img src="img/watermelon.svg">
-      <img id="open" src="img/menu.svg">
-      <img id="close" src="img/close.svg">
+      <img src="/img/watermelon.svg">
+      <img id="open" src="/img/menu.svg">
+      <img id="close" src="/img/close.svg">
     </div>
     
     <div id="sousmenumobile">
-      <div>Leads</div>
-      <div>Sites web</div>
-      <div>Apps & Logiciels</div>
+      <!--a href="/fr/leads.html"><div>Leads</div></a-->
+      <a href="/fr/"><div>Sites web</div></a>
+      <a href="/fr/dev.html"><div>Apps & Logiciels</div></a>
     </div>
     
     </div>
@@ -48,7 +49,7 @@
 
 
 
-
+<!--  page --------------------------------------------------------------------------- -->
     <div id="dev">
 
       <!--
@@ -68,155 +69,215 @@
       Nous développons sur-mesure des applications web, mobiles et logicielles. Inter-connectées, intelligentes (IA) et autonomes.
     </div>
   
-    <a ><div class="btn">Demander un devis (gratuit)</div></a>
+    <a href="#contact"><div class="btn">Demander un devis (gratuit)</div></a>
     
-      <img id="image" src="img/laptop2.svg">
-    
+      <img id="image" src="/img/laptop2.svg">
     
     </div>
 
 
 
+    <!-- blocs ------------------------------------------------------------------ -->
+    <div id="blocs">
 
 
-
-
-<div id="corps">
-
-<div class="titre">Exemples d'automatisations</div>
-  <div class="bloc">
-    <img src="img/chatbot.svg">
-    <div class="soustitre">Service clientèle : chatbots et assistants virtuels</div>
-    <div class="texte">Ces systèmes peuvent gérer les questions fréquentes, offrir un support 24/7, et diriger les requêtes complexes vers des agents humains.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/verified2.svg">
-    <div class="soustitre">RH : tri de CV</div>
-    <div class="texte">L'IA peut analyser rapidement des centaines de CV pour identifier les candidats les plus prometteurs en fonction des compétences et de l'expérience requises.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/onboarding.svg">
-    <div class="soustitre">RH : onboarding automatisé</div>
-    <div class="texte">L'IA peut guider les nouveaux employés à travers les procédures d'intégration, répondre aux questions courantes et aider à la formation.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/social-media.svg">
-    <div class="soustitre">Marketing et ventes : personnalisation du contenu</div>
-    <div class="texte">L'IA analyse le comportement des utilisateurs pour personnaliser les recommandations de produits et les messages marketing.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/pricing.svg">
-    <div class="soustitre">Marketing et ventes : optimisation des prix</div>
-    <div class="texte">Des algorithmes d'IA peuvent ajuster dynamiquement les prix en fonction des facteurs du marché, de la demande et de l'inventaire.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/invoice.svg">
-    <div class="soustitre">Finance et comptabilité : traitement des factures et des paiements</div>
-    <div class="texte">L'IA peut automatiser la saisie des données, la réconciliation des factures et le traitement des paiements.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/account-2.svg">
-    <div class="soustitre">Finance et comptabilité : prévision financière</div>
-    <div class="texte">Des modèles prédictifs peuvent aider à prévoir les flux de trésorerie, les revenus et d'autres indicateurs financiers importants.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/in-stock.svg">
-    <div class="soustitre">Planification de la chaîne d'approvisionnement</div>
-    <div class="texte">L'IA peut optimiser les niveaux de stock, prévoir la demande et planifier la production pour minimiser les coûts tout en répondant à la demande.</div>
-  </div>
-  <div class="bloc">
-    <img src="img/data-analysis.svg">
-    <div class="soustitre">Business Intelligence : analyse de données et prise de décision</div>
-    <div class="texte">L'IA peut analyser de grandes quantités de données pour générer des insights, aider à la prise de décision, et identifier les tendances et les anomalies.</div>
-  </div>
-
-
-  <div class="titre">Intégrations</div>
-<div class="texte">
-  Nous avons des leads dans de nombreux secteurs d'activité, allant des vêtements personnalisés à l'immobilier. 
-  Si votre activité est spécifique ou nouvelle, nous pouvons tout de même discuter ensemble afin de développer de nouvelles stratégies d'acquisiton de leads pour vous.
-  </div>
-
-
-</div>
-
-  
-  <div id="contact">
-  <div class="titre">Demander un devis (gratuit)</div>
-  <form id="form">
-      <input type="text" name="prenom" class="prenom" placeholder="Prénom" required><input type="text" name="nom" class="nom" placeholder="Nom" required>
-      <br>
-      <input type="tel" name="telephone" class="telephone" placeholder="Téléphone" required><input type="email" name="email" class="email" placeholder="Email" required>
-      <br>
-      <textarea name="message" class="message" placeholder="Message" required></textarea>
-      <input type="submit" class="btn" value="Envoyer">
-  </form>
-  <div class="feedback">Votre message est bien arrivé, vous recevrez une réponse prochainement.</div>
-</div>
-
-
-
-
-
-
-<div id="footer">
-
-  <div class="bloc">
-    <div class="footertitre">Contact</div>
-    <div>klim@watermelon.cool</div>
-    <div>+41 79 291 87 21</div>
-    </div>
-    
-    <div class="bloc">
-    <a><div>À propos</div></a>
-    <a><div>Mentions légales</div></a>
-    <a><div>Confidentialité</div></a>
-    <a><div>CVG</div></a>
-    </div>
-
-    <div class="bloc">
-      <a>Suisse</a>
+      <div class="titre">Exemples d'automatisations</div>
+      <div class="bloc">
+        <img src="/img/chatbot.svg">
+        <div class="titrebloc">Service clientèle : chatbots et assistants virtuels</div>
+        <div class="texte">Ces systèmes peuvent gérer les questions fréquentes, offrir un support 24/7, et diriger les requêtes complexes vers des agents humains.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/verified2.svg">
+        <div class="titrebloc">RH : tri de CV</div>
+        <div class="texte">L'IA peut analyser rapidement des centaines de CV pour identifier les candidats les plus prometteurs en fonction des compétences et de l'expérience requises.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/onboarding.svg">
+        <div class="titrebloc">RH : onboarding automatisé</div>
+        <div class="texte">L'IA peut guider les nouveaux employés à travers les procédures d'intégration, répondre aux questions courantes et aider à la formation.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/social-media.svg">
+        <div class="titrebloc">Marketing et ventes : personnalisation du contenu</div>
+        <div class="texte">L'IA analyse le comportement des utilisateurs pour personnaliser les recommandations de produits et les messages marketing.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/pricing.svg">
+        <div class="titrebloc">Marketing et ventes : optimisation des prix</div>
+        <div class="texte">Des algorithmes d'IA peuvent ajuster dynamiquement les prix en fonction des facteurs du marché, de la demande et de l'inventaire.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/invoice.svg">
+        <div class="titrebloc">Finance et comptabilité : traitement des factures et des paiements</div>
+        <div class="texte">L'IA peut automatiser la saisie des données, la réconciliation des factures et le traitement des paiements.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/account-2.svg">
+        <div class="titrebloc">Finance et comptabilité : prévision financière</div>
+        <div class="texte">Des modèles prédictifs peuvent aider à prévoir les flux de trésorerie, les revenus et d'autres indicateurs financiers importants.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/in-stock.svg">
+        <div class="titrebloc">Planification de la chaîne d'approvisionnement</div>
+        <div class="texte">L'IA peut optimiser les niveaux de stock, prévoir la demande et planifier la production pour minimiser les coûts tout en répondant à la demande.</div>
+      </div>
+      <div class="bloc">
+        <img src="/img/data-analysis.svg">
+        <div class="titrebloc">Business Intelligence : analyse de données et prise de décision</div>
+        <div class="texte">L'IA peut analyser de grandes quantités de données pour générer des insights, aider à la prise de décision, et identifier les tendances et les anomalies.</div>
       </div>
 
-</div>
+    </div>
 
-<div id="copyright">© <span id="annee"></span> Watermelon Sàrl</div>
+
+
+  <!--  faq --------------------------------------------------------------------------- -->
+  <div id="faq">
+
+    <div class="titre">Questions fréquentes</div>
+  
+    <div class="derouler bordertop">
+      <div class="top">
+        <span>Combien de temps faut-il pour créer un site web ?</span>
+      <img class="image montrer" src="/img/arrow-down.svg">
+      <img class="image cacher" src="/img/arrow-up.svg">
+    </div>
+      <div class="contenu">
+        Un site web standard peut généralement être lancé en 4 à 6 semaines. Le délai de réalisation peut varier de quelques semaines à plusieurs mois, en fonction de la complexité du projet. Nous travaillerons étroitement avec vous pour établir un calendrier réaliste qui répond à vos attentes.
+      </div>
+      </div>
     
-<script src="code/homepage2.js"></script>
-
-
+    
+      <div class="derouler">
+        <div class="top">
+          <span>Proposez-vous des services de référencement (SEO) pour améliorer la visibilité du site ?</span>
+        <img class="image montrer" src="/img/arrow-down.svg">
+        <img class="image cacher" src="/img/arrow-up.svg">
+      </div>
+        <div class="contenu">
+          Oui, nous intégrons les meilleures pratiques SEO dès le début du processus de conception pour aider à améliorer la visibilité de votre site sur les moteurs de recherche. Nous proposons également des services SEO avancés pour des stratégies de référencement plus poussées.
+        </div>
+        </div>
+  
+  
+        <div class="derouler">
+          <div class="top">
+            <span>Pouvons-nous mettre à jour le site nous-mêmes une fois qu'il est en ligne ?</span>
+          <img class="image montrer" src="/img/arrow-down.svg">
+          <img class="image cacher" src="/img/arrow-up.svg">
+        </div>
+          <div class="contenu">
+            Nous utilisons des systèmes de gestion de contenu (CMS) conviviaux qui vous permettent de mettre à jour le contenu de votre site facilement sans nécessiter de compétences techniques. Nous fournirons également une formation sur la façon de gérer votre site après son lancement.
+          </div>
+          </div>
         
-    <!-- 
+        
+          <div class="derouler">
+            <div class="top">
+              <span>Offrez-vous l'hébergement web et des adresses email ?</span>
+            <img class="image montrer" src="/img/arrow-down.svg">
+            <img class="image cacher" src="/img/arrow-up.svg">
+          </div>
+            <div class="contenu">
+              Oui, nous proposons des solutions d'hébergement web sécurisées et fiables, ainsi que la configuration d'adresses email professionnelles. Ces services peuvent être inclus dans nos forfaits ou proposés séparément selon vos besoins.
+            </div>
+            </div>
+  
+  
+            <div class="derouler">
+              <div class="top">
+                <span>Comment sécurisez-vous les sites web contre les piratages ?</span>
+              <img class="image montrer" src="/img/arrow-down.svg">
+              <img class="image cacher" src="/img/arrow-up.svg">
+            </div>
+              <div class="contenu">
+                La sécurité est une priorité pour nous. Nous implémentons des mesures de sécurité robustes, y compris des certificats SSL, la protection contre les logiciels malveillants et les sauvegardes régulières pour protéger votre site contre les menaces en ligne.
+              </div>
+              </div>
+            
+            
+              <div class="derouler">
+                <div class="top">
+                  <span>Y aura-t-il un contrat de maintenance ? Quels services sont inclus ?</span>
+                <img class="image montrer" src="/img/arrow-down.svg">
+                <img class="image cacher" src="/img/arrow-up.svg">
+              </div>
+                <div class="contenu">
+                  Nous offrons des contrats de maintenance pour assurer le bon fonctionnement de votre site après son lancement. Cela inclut des mises à jour régulières, des sauvegardes de sécurité, et un support technique pour répondre à toutes vos questions.
+                </div>
+                </div>
+  
+  
+                <div class="derouler">
+                  <div class="top">
+                    <span>Pouvez-vous intégrer des fonctionnalités spécifiques, comme un e-commerce, un blog, ou des formulaires ?</span>
+                  <img class="image montrer" src="/img/arrow-down.svg">
+                  <img class="image cacher" src="/img/arrow-up.svg">
+                </div>
+                  <div class="contenu">
+                    Nous sommes expérimentés dans l'intégration de diverses fonctionnalités, telles que les boutiques en ligne, les blogs, et les formulaires de contact. Discutons de vos besoins spécifiques pour créer une solution personnalisée qui répond à vos objectifs.
+                  </div>
+                  </div>
+  
+  
+                  <div class="derouler">
+                    <div class="top">
+                      <span>Comment le processus de conception fonctionne-t-il ? Aurons-nous un dire sur le design ?</span>
+                    <img class="image montrer" src="/img/arrow-down.svg">
+                    <img class="image cacher" src="/img/arrow-up.svg">
+                  </div>
+                    <div class="contenu">
+                      Notre processus commence par comprendre vos objectifs et préférences. Nous vous proposerons des maquettes initiales et vous aurez l'opportunité de fournir des retours à chaque étape. Votre participation est essentielle pour nous assurer que le design final reflète parfaitement votre vision.
+                    </div>
+                    </div>
+  
+  
+  </div>
+  
+  
+  
 
-      menu :
-      achat de leads
-      développement de logiciels
-
-      points forts :
-      - 4 max entreprises en compétition
-      - leads de qualité : vérification des leads
-
-      footer :
-À propos
-Contact
-Mentions légales
-Politique de confidentialité
-Conditions générales de vente (si e-shop)
-
-
-
-      drapeau suisse
-
-      site suisse
-      site france
-      site international
-
-      CGV (avec RGPD)
-
-      changement de langue
-      changement de devise
-    
-    -->
+  
+  <!--  contact --------------------------------------------------------------------------- -->
+<div id="contact">
+  <div class="titre">Contact</div>
+    <form id="form">
+        <input type="text" name="prenom" class="prenom" placeholder="Prénom" required><input type="text" name="nom" class="nom" placeholder="Nom" required>
+        <input type="tel" name="telephone" class="telephone" placeholder="Téléphone" required><input type="email" name="email" class="email" placeholder="Email" required>
+        <textarea name="message" class="message" placeholder="Message" required></textarea>
+        <input type="submit" class="btn" value="Envoyer">
+    </form>
+    <div class="feedback">Votre message est bien arrivé, vous recevrez une réponse prochainement.</div>
+  </div>
+  
+  
+    <!--  footer --------------------------------------------------------------------------- -->
+  <div id="footer">
+  
+    <div class="bloc">
+      <div class="footertitre">Contact</div>
+      <div>klim@watermelon.cool</div>
+      <div>+41 79 291 87 21</div>
+      </div>
+      
+      <div class="bloc">
+      <a href="/fr/about.html"><div>À propos</div></a>
+      <a href="/fr/legal.html"><div>Mentions légales</div></a>
+      <a href="/fr/privacy.html"><div>Confidentialité</div></a>
+      <a href="/fr/cgv.html"><div>CGV</div></a>
+      </div>
+  
+      <div class="bloc">
+        <a>Suisse</a>
+        </div>
+  
+  </div>
+  
+  <!-- copyright -----------------------------------------------------------------------------   -->
+  <div id="copyright">© <span id="annee"></span> Watermelon Sàrl</div>
+      
+  <script src="/code/code.js"></script>
     
   
     

@@ -13,6 +13,7 @@
   }
 
 /* global ------------------------------------------------- */
+body::before {background: black;}
 body,html{ background: black; background: linear-gradient(black 0%, var(--dark) 300px) ; color:white; font-family:'Roboto', Helvetica, Arial, sans-serif; font-size:15px; font-weight:700; scroll-behavior: smooth; margin:0; padding:0; line-height: 155%;}
 a{color:white; text-decoration:none; cursor:pointer; }
 a:hover {cursor:pointer !important;}
@@ -103,7 +104,7 @@ select {cursor:pointer;}
 #siteweb .bloc.six .btn {background:rgb(236, 195, 159); color:black; }
 
 @media screen and (max-width: 700px) { 
-#siteweb .grandtitre {width:80%; font-size:50px;}
+#siteweb .grandtitre {width:80%; font-size:40px;}
 #siteweb .bloc {width:90%;}
 }
 

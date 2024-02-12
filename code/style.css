@@ -13,8 +13,15 @@
   }
 
 /* global ------------------------------------------------- */
-body::before {background: black;}
-body,html{ background: black; background: linear-gradient(black 0%, var(--dark) 300px) ; color:white; font-family:'Roboto', Helvetica, Arial, sans-serif; font-size:15px; font-weight:700; scroll-behavior: smooth; margin:0; padding:0; line-height: 155%;}
+body::before {content: "";
+  position: fixed;
+  top: -10px;
+  right: 0;
+  bottom: -10px;
+  left: 0;
+  background: black;
+  z-index: -1;}
+body,html{ background-color: black; background: linear-gradient(black 0%, var(--dark) 300px) ; color:white; font-family:'Roboto', Helvetica, Arial, sans-serif; font-size:15px; font-weight:700; scroll-behavior: smooth; margin:0; padding:0; line-height: 155%;}
 a{color:white; text-decoration:none; cursor:pointer; }
 a:hover {cursor:pointer !important;}
 /* input, select, textarea { -webkit-appearance: none; -moz-appearance: none; appearance: none; border:0; margin:0; font-family:'Roboto', Helvetica, Arial, sans-serif; padding:10px 15px; box-sizing: border-box; border-radius:10px; background:white; color: var(--dark); font-size:16px; font-weight:700;} */

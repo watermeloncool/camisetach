@@ -104,6 +104,7 @@ select {cursor:pointer;}
 
 @media screen and (max-width: 700px) { 
 #siteweb .grandtitre {width:80%; font-size:50px;}
+#siteweb .bloc {width:90%;}
 }
 
 /* dev ------------------------------------------------- */
@@ -111,6 +112,16 @@ select {cursor:pointer;}
 #dev .grandtitre{width:550px; font-size:60px; line-height: 110%;  }
 #dev .soustitre{width:550px; padding-top:30px; padding-bottom:40px; font-size:18px; font-weight:400; line-height: 155%; }
 #dev #image{ position:absolute; top:0; right:0; width:480px; display:inline-block; vertical-align:top; }
+
+/* texte ----------------------------------------------- */
+#texte {width:800px; margin-left:auto; margin-right:auto; text-align:left; }
+#texte .grandtitre {font-size:50px; text-align:left; padding:0; margin:100px 0; line-height:110%;}
+#texte .titre {font-size:30px; text-align:left; padding:0; margin:70px 0 20px 0;  line-height:110%;}
+#texte .texte {font-size:16px; text-align:left; padding:0; margin:15px 0;}
+
+@media screen and (max-width: 900px) { 
+  #texte {width:90%;}
+  }
 
 /* corps --------------------------------------------------- */
 #corps{padding:5% 10%;  }

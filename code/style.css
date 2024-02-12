@@ -64,7 +64,7 @@ select {cursor:pointer;}
 #lead .cgv a {text-decoration:underline;}
 
 /* siteweb ------------------------------------------------ */
-#siteweb {width:100%; text-align:center; margin-bottom:50px; }
+#siteweb {width:100%; text-align:center; }
 #siteweb .grandtitre { text-align:center; font-size:55px; width:570px; margin:60px auto; line-height: 110%;  }
 #siteweb .bloc {position:relative; display:inline-block; width:370px; margin:15px; border:solid 4px white; vertical-align:top; border-radius:15px; text-align:center;  }
 #siteweb .bloc .soustitre { margin:20px 0 30px 20px; width:200px; /*height:100px;*/ text-align:left; font-size:30px; line-height: 102%; }
